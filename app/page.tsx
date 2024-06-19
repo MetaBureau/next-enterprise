@@ -1,6 +1,8 @@
 import { Metadata } from "next"
 import { Button } from "components/Button/Button"
+import { ThreeDCardDemo } from "components/ThreeDCardDemo/ThreeDCardDemo"
 import { LP_GRID_ITEMS } from "lp-items"
+
 
 export const metadata: Metadata = {
   title: "Next.js Enterprise Boilerplate",
@@ -28,6 +30,7 @@ export default function Web() {
             <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
               Next.js Enterprise Boilerplate DEMO1
             </h1>
+            <ThreeDCardDemo />
             <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
               Jumpstart your enterprise project with our feature-packed, high-performance Next.js boilerplate!
               Experience rapid UI development, AI-powered code reviews, and an extensive suite of tools for a smooth and
